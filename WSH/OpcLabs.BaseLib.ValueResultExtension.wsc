@@ -1,0 +1,39 @@
+<?XML version="1.0"?>
+<!-- $Header: $ !-->
+<!-- Copyright (c) CODE Consulting and Development, s.r.o., Plzen. All rights reserved. !-->
+
+<!-- Extends the ValueResult class. !-->
+<!---->
+<!--Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .-->
+
+<?component error="false"?>
+<component>
+
+<registration
+    progid="OPCLabs.BaseLib.OperationModel.ValueResultExtension"
+    classid="{15E5B376-A795-43E9-97A4-271617EE03B4}"
+    description="Extends the ValueResult class."
+    version="1"
+    remotable="true">
+</registration>
+
+<!-- Declare properties, methods and events of the component !-->
+<public>
+    <!-- <property name="..."> </property> !-->
+    <method name="ValueDouble"> 
+        <parameter name="valueResult"/> 
+    </method>
+</public>
+
+<script language="VBScript">
+Option Explicit
+
+Rem Gets a Double value that is a successful result of the operation.
+Function ValueDouble(valueResult)
+    Dim result: result = CDbl(valueResult.Value)
+    ValueDouble = result
+End Function
+
+</script>
+
+</component>

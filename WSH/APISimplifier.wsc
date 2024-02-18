@@ -1,0 +1,43 @@
+<?XML version="1.0"?>
+<!-- $Header: $ !-->
+<!-- Copyright (c) CODE Consulting and Development, s.r.o., Plzen. All rights reserved. !-->
+
+<!-- Shows how to create a component that provides domain-specific API to QuickOPC. !-->
+<!-- Run ReadUsingSimplifier.vbs to see this component in action. !-->
+<!---->
+<!--Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .-->
+
+<?component error="false"?>
+<component>
+
+<registration
+    progid="OPCLabs.QuickOPC.APISimplifier"
+    classid="{481E98BC-0848-4576-A9A2-FA2B1121E91F}"
+    description="QuickOPC API Simplifier Example"
+    version="1"
+    remotable="true">
+</registration>
+
+<!-- Declare properties, methods and events of the component !-->
+<public>
+    <!-- <property name="..."> </property> !-->
+    <method name="UARead"> 
+        <parameter name="nodeId"/> 
+    </method>
+</public>
+
+<!-- The client object to be used throughout the component !-->
+<object id="Client" progid="OpcLabs.EasyOpc.UA.EasyUAClient"/>
+
+<script language="VBScript">
+Option Explicit
+
+<!-- Simplified read function that always reads from a hard-wired OPC UA server. !-->
+	Function UARead(nodeId)
+	Dim value: value = Client.ReadValue("opc.tcp://opcua.demo-this.com:51210/UA/SampleServer", nodeId)
+	UARead = value
+	End Function
+
+</script>
+
+</component>
