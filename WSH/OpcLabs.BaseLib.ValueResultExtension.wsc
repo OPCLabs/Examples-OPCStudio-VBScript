@@ -4,7 +4,7 @@
 
 <!-- Extends the ValueResult class. !-->
 <!---->
-<!--Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .-->
+<!--Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .-->
 
 <?component error="false"?>
 <component>

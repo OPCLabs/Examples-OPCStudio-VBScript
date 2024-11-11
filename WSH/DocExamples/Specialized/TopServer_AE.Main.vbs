@@ -5,7 +5,10 @@ Rem#region Example
 Rem This example shows how to work with Software Toolbox TOP Server 5 Alarms and Events.
 Rem Use simdemo_WithA&E.opf configuration file and write a value above 1000 to Channel1.Device1.Tag1 or Channel1.Device1.Tag2.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+Rem Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+Rem OPC client and subscriber examples in VBScript on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VBScript .
+Rem Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+Rem a commercial license in order to use Online Forums, and we reply to every post.
 
 Option Explicit
 

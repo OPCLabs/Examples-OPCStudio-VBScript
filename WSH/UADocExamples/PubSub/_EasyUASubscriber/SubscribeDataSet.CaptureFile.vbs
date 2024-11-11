@@ -8,7 +8,10 @@ Rem
 Rem The OpcLabs.Pcap assembly needs to be referenced in your project (or otherwise made available, together with its
 Rem dependencies) for the capture files to work. Refer to the documentation for more information.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+Rem Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+Rem OPC client and subscriber examples in VBScript on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VBScript .
+Rem Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+Rem a commercial license in order to use Online Forums, and we reply to every post.
 
 Option Explicit
 

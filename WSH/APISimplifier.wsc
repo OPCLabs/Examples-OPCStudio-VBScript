@@ -5,7 +5,7 @@
 <!-- Shows how to create a component that provides domain-specific API to QuickOPC. !-->
 <!-- Run ReadUsingSimplifier.vbs to see this component in action. !-->
 <!---->
-<!--Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .-->
+<!--Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .-->
 
 <?component error="false"?>
 <component>
