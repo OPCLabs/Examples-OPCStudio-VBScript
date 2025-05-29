@@ -8,7 +8,7 @@ The examples can be run
 * standalone (under Windows Script Host).
 
 The examples work with our sample servers and publishers. Most of them reside on the Web; OPC "Classic" servers for Windows
-are installed using the [OPC Studio Setup program](https://www.opclabs.com/products/download).
+are installed using the [OPC Studio Setup program](https://www.opclabs.com/download).
 
 Useful links:
 * [OPC client and subscriber examples in the documentation](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html).
